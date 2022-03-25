@@ -1,0 +1,49 @@
+﻿/* Adding background color to the menu bar */
+.menu {
+    background-color: darkslategrey;
+    overflow: hidden;
+}
+    /* Style the links inside the menu bar */
+    .menu a {
+        float: right;
+        color: whitesmoke;
+        text-align: center;
+        padding: 15px 17px;
+        text-decoration: none;
+        font-size: 22px;
+    }
+        /* Change the color of links on hover */
+        .menu a:hover {
+            background-color: darkred;
+            color: white;
+        }
+        /* Adding a color to the active/current link */
+        .menu a.active {
+            background-color: darkslategrey;
+            color: white;
+        }
+
+.footer {
+    margin-top: 900px;
+}
+
+body {
+    font-size: 30px;
+    color: azure;
+}
+
+* {
+    background-color: black;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+}
+h6 {
+    background-color: darkslategrey;
+    color: darkslategrey;
+}
+.back {
+    font-style: italic;
+}
