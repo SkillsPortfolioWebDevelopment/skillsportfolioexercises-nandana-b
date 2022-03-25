@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2.Styling those divs", "3.2.Styling those divs\3.2.Styling those divs.csproj", "{E814A598-FF08-4E8B-9C60-DC348BFBD696}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E814A598-FF08-4E8B-9C60-DC348BFBD696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E814A598-FF08-4E8B-9C60-DC348BFBD696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E814A598-FF08-4E8B-9C60-DC348BFBD696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E814A598-FF08-4E8B-9C60-DC348BFBD696}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40309438-1423-42BA-9393-9EC053EB45F3}
+	EndGlobalSection
+EndGlobal
