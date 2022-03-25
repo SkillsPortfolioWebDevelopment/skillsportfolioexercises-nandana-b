@@ -1,0 +1,55 @@
+﻿div {
+    width: 550px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    background-color:dimgrey;
+    text-align:center;
+}
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+body{
+    text-align:center;
+    background-color:black;
+    color:aliceblue;
+    font-size:17px;
+}
+img{
+    align-content:center;
+}
+button {
+    border: 5px;
+    border-color:black;
+    color:midnightblue;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+        background-color: #4CAF50;
+        color: black;
+}
+.pic {
+    max-width: 900px;
+    max-height: 500px;
+    width: 900px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    background-color: dimgrey;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+mark {
+    background-color:gold;
+    color: black;
+}
