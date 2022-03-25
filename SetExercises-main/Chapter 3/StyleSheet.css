@@ -1,0 +1,20 @@
+﻿#A {
+    filter:grayscale();
+}
+
+#B {
+    filter:brightness(25%);
+}
+
+#C {
+    filter: opacity(45%);
+    display: inline-block;
+}
+
+.div1 {
+    display: inline-block;
+    margin-left:900px;
+}
+body {
+    background-color: lightslategrey;
+}
