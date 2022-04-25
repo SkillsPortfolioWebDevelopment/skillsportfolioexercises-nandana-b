@@ -1,0 +1,26 @@
+﻿* {
+    box-sizing: border-box;
+}
+/*modifying the button*/
+.button-tool-pathgriho {
+    border-radius: 20px;
+    padding: 18px;
+    background-color:greenyellow;
+    color: black;
+    font-size: 15px;
+}
+
+    .button-tool-pathgriho:hover {
+        background-color:hotpink;
+        color: black;
+    }
+/*stylizing the box*/
+.pathgriho-box {
+    width: 20%;
+    height: 42px;
+    border-radius: 15px;
+}
+/*changing background colour*/
+body{
+    background-color:darkslategrey;
+}
