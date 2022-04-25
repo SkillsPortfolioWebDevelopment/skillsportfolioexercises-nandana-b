@@ -1,0 +1,67 @@
+﻿h2 {
+    background-color: white;
+    width: 700px;
+    height: 28px;
+    text-align: center;
+    margin-left: 800px;
+    color: crimson;
+}
+
+.sounds {
+    display: inline-block;
+    padding: 10px 8px;
+}
+
+.first {
+    width: 205px;
+    height: 155px;
+    border: 8px solid black;
+    border-radius: 20px;
+}
+
+    .first:hover {
+        color: white;
+        background-color: crimson;
+    }
+
+#content {
+    margin-left: 800px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    height:50px;
+    border-radius:15px;
+    border: solid 2px #BBB;
+}
+
+#title{
+    margin-top:0px;
+}
+
+#box {
+    width: 100px;
+    height: 155px;
+}
+
+#txt {
+    margin: 0px 25px;
+}
+
+#spk{
+ margin-left:350px;
+}
+
+.voice {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width:75px;
+    height:55px;
+}
+.voice:hover{
+    color:white;
+    background-color:darkorchid;
+}
