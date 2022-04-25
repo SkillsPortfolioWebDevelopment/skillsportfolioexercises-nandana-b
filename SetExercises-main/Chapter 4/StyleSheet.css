@@ -1,0 +1,141 @@
+﻿.sidenav {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0b1250;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: white;
+}
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+hr.solid {
+    border-top: 4px solid;
+    color:black;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #314772;
+    color: white;
+    margin-left: 340px;
+}
+body {
+    margin: 0;
+}
+.month {
+    padding: 20px 15px;
+    width: 100%;
+    background: #5a566c;
+    text-align: center;
+    margin-left:80px;
+}
+
+    .month ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        .month ul li {
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing:0px;
+        }
+
+    .month .prev {
+        float: left;
+        padding-top: 10px;
+    }
+
+    .month .next {
+        float: right;
+        padding-top: 10px;
+    }
+
+.weekdays {
+    margin-left:160px;
+    padding: 0px 0;
+    background-color: #ddd;
+    margin-right:0px;
+}
+
+    .weekdays li {
+        display: inline-block;
+        width: 13.6%;
+        color: #666;
+        text-align: center;
+    }
+
+.days {
+    padding: 0px 0;
+    background: #eee;
+    margin-left:160px;
+    margin-right:0px;
+}
+
+    .days li {
+        list-style-type: none;
+        display: inline-block;
+        width: 13.6%;
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: #777;
+    }
+
+        .days li .active {
+            padding: 5px;
+            background: #0c1454;
+            color: white
+        }
+footer {
+    text-align: center;
+    background-color: #5a566c;
+    color: white;
+    margin-left: 345px;
+    margin-top: 190px;
+}
+.voice {
+    text-align:center;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 115px;
+    height:40px;
+}
+
+    .voice:hover {
+        color: white;
+        background-color:crimson;
+    }
